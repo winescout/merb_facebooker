@@ -2,15 +2,15 @@ module Facebooker
   module Merb
     module Helpers
       #const
-      VALID_FB_SHARED_PHOTO_SIZES = [:thumb, :small, :normal, :square]
-      VALID_FB_PHOTO_SIZES = VALID_FB_SHARED_PHOTO_SIZES      
-      VALID_FB_PROFILE_PIC_SIZES = VALID_FB_SHARED_PHOTO_SIZES
+      VALID_FB_SHARED_PHOTO_SIZES = [:thumb, :small, :normal, :square] unless defined?(VALID_FB_SHARED_PHOTO_SIZES)
+      VALID_FB_PHOTO_SIZES = VALID_FB_SHARED_PHOTO_SIZES unless defined?(VALID_FB_PHOTO_SIZES)
+      VALID_FB_PROFILE_PIC_SIZES = VALID_FB_SHARED_PHOTO_SIZES unless defined?(VALID_FB_PROFILE_PIC_SIZES)
       
-      VALID_FB_SHARED_ALIGN_VALUES = [:left, :right]
-      VALID_FB_PHOTO_ALIGN_VALUES = VALID_FB_SHARED_ALIGN_VALUES
-      VALID_FB_TAB_ITEM_ALIGN_VALUES = VALID_FB_SHARED_ALIGN_VALUES
+      VALID_FB_SHARED_ALIGN_VALUES = [:left, :right] unless defined?(VALID_FB_SHARED_ALIGN_VALUES)
+      VALID_FB_PHOTO_ALIGN_VALUES = VALID_FB_SHARED_ALIGN_VALUES unless defined?(VALID_FB_PHOTO_ALIGN_VALUES)
+      VALID_FB_TAB_ITEM_ALIGN_VALUES = VALID_FB_SHARED_ALIGN_VALUES unless defined?(VALID_FB_TAB_ITEM_ALIGN_VALUES)
 
-      FB_PHOTO_VALID_OPTION_KEYS = [:uid, :size, :align]
+      FB_PHOTO_VALID_OPTION_KEYS = [:uid, :size, :align] unless defined?(FB_PHOTO_VALID_OPTION_KEYS)
       
       # Create an fb:request-form without a selector
       #
