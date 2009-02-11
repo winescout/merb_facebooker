@@ -1,9 +1,16 @@
+.gitignore
 History.txt
 Manifest.txt
 README.txt
 Rakefile
 bin/merb-facebooker
 lib/merb-facebooker.rb
+lib/merb-facebooker/controller.rb
+lib/merb-facebooker/helpers.rb
+lib/tasks/merbtasks.rake
+lib/templates/config/facebooker.yml
+log/merb_test.log
 spec/merb-facebooker_spec.rb
+spec/merb_facebooker_spec.rb
 spec/spec_helper.rb
 test/test_merb-facebooker.rb

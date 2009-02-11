@@ -1,8 +1,3 @@
-# make sure we're running inside Merb
-require 'merb_facebooker/controller'
-require 'merb_facebooker/helpers'
-
-
 module MerbFacebooker
 
   # :stopdoc:

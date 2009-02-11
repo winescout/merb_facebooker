@@ -20,7 +20,7 @@ task :default => 'spec:run'
 
 PROJ.name = 'merb-facebooker'
 PROJ.authors = 'Matt Clark'
-PROJ.email = 'merb-facebooker@alwaysforward.com
+PROJ.email = 'merb-facebooker@alwaysforward.com'
 PROJ.url = 'www.alwaysforward.com'
 PROJ.version = MerbFacebooker::VERSION
 PROJ.rubyforge.name = 'merb-facebooker'
