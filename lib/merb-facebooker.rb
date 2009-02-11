@@ -73,7 +73,7 @@ if defined?(Merb::Plugins)
     # code that can be required after the application loads
   end
   
-  Merb::Plugins.add_rakefiles "merb_facebooker/merbtasks"
+  Merb::Plugins.add_rakefiles "merb-facebooker/merbtasks"
 end
 
 MerbFacebooker.require_all_libs_relative_to(__FILE__)
